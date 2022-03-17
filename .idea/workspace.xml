@@ -25,6 +25,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MI\Desktop\chat\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647427250445</updated>
       <workItem from="1647427251605" duration="5764000" />
-      <workItem from="1647523453479" duration="5826000" />
+      <workItem from="1647523453479" duration="9799000" />
     </task>
     <servers />
   </component>
@@ -42,6 +47,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647530163798">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1647530163798" />
     <state x="393" y="47" key="CommitChangelistDialog2" timestamp="1647524492818">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
