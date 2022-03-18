@@ -22,7 +22,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -39,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647427250445</updated>
       <workItem from="1647427251605" duration="5764000" />
-      <workItem from="1647523453479" duration="9799000" />
+      <workItem from="1647523453479" duration="15516000" />
     </task>
     <servers />
   </component>
@@ -51,10 +54,14 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1647530163798" />
-    <state x="393" y="47" key="CommitChangelistDialog2" timestamp="1647524492818">
+    <state x="393" y="47" key="CommitChangelistDialog2" timestamp="1647605017017">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="47" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1647524492818" />
+    <state x="393" y="47" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1647605017017" />
+    <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1647604572739" />
     <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1647524488676">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

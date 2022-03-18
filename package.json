@@ -1,9 +1,18 @@
 {
   "devDependencies": {
+    "@parcel/transformer-sass": "2.3.2",
     "parcel": "^2.3.2"
   },
+  "source": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-mixins": "^9.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3"
   }
 }
