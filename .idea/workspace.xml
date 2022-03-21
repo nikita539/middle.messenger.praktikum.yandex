@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.parcelrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcelrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.parcelrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +53,7 @@
       <workItem from="1647427251605" duration="5764000" />
       <workItem from="1647523453479" duration="15516000" />
       <workItem from="1647684742029" duration="2223000" />
+      <workItem from="1647880808610" duration="1063000" />
     </task>
     <servers />
   </component>
@@ -63,10 +65,10 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1647530163798" />
-    <state x="393" y="47" key="CommitChangelistDialog2" timestamp="1647605017017">
+    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1647687421542">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="47" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1647605017017" />
+    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1647687421542" />
     <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

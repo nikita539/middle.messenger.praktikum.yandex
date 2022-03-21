@@ -9,20 +9,6 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@andreyvolokitin/parcel-transformer-handlebars@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@andreyvolokitin/parcel-transformer-handlebars/-/parcel-transformer-handlebars-0.0.3.tgz#6227b1587e5da3820e0393c54694839ac07afa04"
-  integrity sha512-UyK8yc49s8vgvifQ5jHhdLkDnCdm2LoTKlJRGyRkLnaupnB6Rx8SEU+eLOrcTUFgCOEwbrWt0HLNY8yANtBZNg==
-  dependencies:
-    cosmiconfig "^6.0.0"
-    front-matter "^3.0.2"
-    globby "^10.0.1"
-    handlebars "^4.2.0"
-    handlebars-helpers "^0.10.0"
-    handlebars-layouts "^3.1.4"
-    handlebars-wax "^6.1.0"
-    parcel-bundler "^1.12.3"
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.16.7.tgz#44416b6bd7624b998f5b1af5d470856c40138789"
@@ -946,6 +932,20 @@
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
+
+"@inventory/parcel-plugin-handlebars@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@inventory/parcel-plugin-handlebars/-/parcel-plugin-handlebars-1.0.0.tgz#cd3daa7cc1ed8969cbd77c166e666d2222e169c6"
+  integrity sha512-7BPgcsT+0dQlNjrVqRYnDffqLdgi/2XoGGlIl0qcIQvYpgmqFJxiFJzFYtKWS+F7mY4N5+yhVMG/T5rORCnhyw==
+  dependencies:
+    cosmiconfig "^6.0.0"
+    front-matter "^3.0.2"
+    globby "^10.0.1"
+    handlebars "^4.2.0"
+    handlebars-helpers "^0.10.0"
+    handlebars-layouts "^3.1.4"
+    handlebars-wax "^6.1.0"
+    parcel-bundler "^1.12.3"
 
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.0.5"
@@ -3942,7 +3942,7 @@ handlebars-wax@^6.1.0:
     object-assign "^4.1.1"
     require-glob "^3.2.0"
 
-handlebars@^4.0.11, handlebars@^4.2.0:
+handlebars@^4.0.11, handlebars@^4.2.0, handlebars@^4.7.7:
   version "4.7.7"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
   integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
