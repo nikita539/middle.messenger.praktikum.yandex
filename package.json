@@ -1,16 +1,16 @@
 {
   "devDependencies": {
-    "@inventory/parcel-plugin-handlebars": "^1.0.0",
+    "@anikin/parcel-transformer-template-precompile": "^1.0.1",
     "@parcel/transformer-sass": "2.3.2",
-    "parcel": "^2.3.2",
     "autoprefixer": "^10.4.4",
     "handlebars": "^4.7.7",
+    "parcel": "^2.3.2",
     "postcss": "^8.4.12",
     "postcss-mixins": "^9.0.2",
     "postcss-nested": "^5.0.6",
     "postcss-simple-vars": "^6.0.3"
   },
-  "source": "index.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
