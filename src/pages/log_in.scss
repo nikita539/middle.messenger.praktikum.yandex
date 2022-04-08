@@ -1,0 +1,35 @@
+@import "index";
+
+.first-page {
+  position: relative;
+  &__title {
+    text-align: center;
+  }
+  &__footer__link {
+    color: $blue;
+    transition: transform 300ms;
+    cursor: pointer;
+  }
+  &__footer-link:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  &__form {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 300px auto;
+  }
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+  background-color: $white-theme;
+  width: 340px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 25px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+}

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/log_in.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/input/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/input/input.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fd1aaf4ea0da9f6" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fd1aaf4ea0da9f6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fe4192728ea0d74" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fe4192728ea0d74" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/3abb05e3970a8500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/3abb05e3970a8500.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcelrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlebars.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/log_in.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/log_in.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -48,11 +48,15 @@
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MI\Desktop\chat\src\partials\input" />
+      <recent name="C:\Users\MI\Desktop\chat\src\partials" />
       <recent name="C:\Users\MI\Desktop\chat\src" />
+      <recent name="C:\Users\MI\Desktop\chat\src\components\input" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,6 +73,28 @@
       <workItem from="1647880808610" duration="8195000" />
       <workItem from="1647964044368" duration="3900000" />
       <workItem from="1647968188284" duration="5421000" />
+      <workItem from="1648142165396" duration="878000" />
+      <workItem from="1648149021141" duration="2813000" />
+      <workItem from="1648215537846" duration="5200000" />
+      <workItem from="1648237360538" duration="1248000" />
+      <workItem from="1648242397682" duration="361000" />
+      <workItem from="1648401725111" duration="8101000" />
+      <workItem from="1648753473542" duration="53000" />
+      <workItem from="1648808433252" duration="9701000" />
+      <workItem from="1648818600204" duration="756000" />
+      <workItem from="1648835017992" duration="5212000" />
+      <workItem from="1648840510155" duration="1298000" />
+      <workItem from="1648845806564" duration="732000" />
+      <workItem from="1648895884489" duration="10675000" />
+      <workItem from="1649021047918" duration="2124000" />
+      <workItem from="1649024128212" duration="1789000" />
+      <workItem from="1649091406165" duration="10000" />
+      <workItem from="1649181228347" duration="1423000" />
+      <workItem from="1649192753800" duration="296000" />
+      <workItem from="1649259686417" duration="1930000" />
+      <workItem from="1649326781155" duration="11713000" />
+      <workItem from="1649417398697" duration="3868000" />
+      <workItem from="1649423577548" duration="7969000" />
     </task>
     <servers />
   </component>
@@ -89,14 +115,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647530163798">
+    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648150502482">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1647530163798" />
-    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1647973792535">
+    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1648150502482" />
+    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1648840305618">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1647973792535" />
+    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1648840305618" />
     <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1647973787996">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
@@ -109,13 +135,17 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1647524488676" />
-    <state x="478" y="186" width="579" height="534" key="find.popup" timestamp="1647969928759">
+    <state x="592" y="145" width="579" height="534" key="find.popup" timestamp="1649423821748">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="478" y="186" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1647969928759" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1647969935385">
+    <state x="592" y="145" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1649423821748" />
+    <state x="425" y="208" key="run.anything.popup" timestamp="1648150816344">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1647969935385" />
+    <state x="425" y="208" key="run.anything.popup/0.43.1536.821@0.43.1536.821" timestamp="1648150816344" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1648907220711">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1648907220711" />
   </component>
 </project>

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@anikin/parcel-transformer-template-precompile@^1.0.1":
+"@anikin/parcel-transformer-handlebars-precompile@^1.0.1":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@anikin/parcel-transformer-template-precompile/-/parcel-transformer-template-precompile-1.0.1.tgz#45cb2539d434364bb8ef3d31388fcb851b1ee064"
-  integrity sha512-QJ7/AzhRaeHKcJnev2mbJEbkPQkkFGVabq3ktHC17xyVBF2NePBprgZ/wcHbEhwSNksB19k8av5eyaN+MAs2cQ==
+  resolved "https://registry.yarnpkg.com/@anikin/parcel-transformer-handlebars-precompile/-/parcel-transformer-handlebars-precompile-1.0.1.tgz#1ee3339f2e6e78c17a19ff8b9bfb5a6db4c4ca3d"
+  integrity sha512-UJ5fHr0KZ4qC1olgQkJLHYO+GS29CgIuKNF9ZoT/U/eyLEWHw7+8UOgoiJudgp2tPqpB71d+zbPfTIO6sXee9g==
 
 "@babel/code-frame@^7.0.0":
   version "7.16.7"

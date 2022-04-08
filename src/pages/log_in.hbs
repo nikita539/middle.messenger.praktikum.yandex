@@ -1,1 +1,28 @@
-<div id="test_div">{{title}}</div>
+<div class="first-page">
+    <h2 class="first-page__title" >{{title}}</h2>
+    <form class="first-page__form" id="form">
+        <div class="first-page__form-fields">
+            <div class="input">
+                <input class="input__field" id="inputName"/>
+                <label class="input__label">
+                    {{labelTextUp}}
+                </label>
+                {{> Input}}
+            </div>
+            <div class="input">
+                <input class="input__field" id="inputPass"/>
+                <label class="input__label">
+                    {{labelTextDown}}
+                </label>
+            </div>
+        </div>
+        <div class="first-page__footer">
+            <button
+                    class="submit__button"
+                    id="login_button"
+                    type="submit"
+            >Sign in</button>
+            <span class="first-page__footer-link">нет аккаунта?</span>
+        </div>
+    </form>
+</div>
