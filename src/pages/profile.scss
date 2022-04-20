@@ -1,0 +1,92 @@
+@import "index";
+
+.profile-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  gap: 40px;
+  &__footer-link {
+    color: $blue;
+    transition: transform 300ms;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    outline: none;
+    text-decoration: none;
+  }
+  &__footer-link:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  &__exit-link {
+    transition: transform 300ms;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    color: $exit-link;
+    text-decoration: none
+  }
+  &__exit-link:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  &__title {
+    color: $bold_font;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  &__info {
+    font-size: 13px;
+    color: $light-grey;
+  }
+  &__user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #999999;
+  }
+  &__name {
+    color: $bold-font;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+  }
+  &__user-detail {
+    width: 100%;
+  }
+  &__row {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid $border-grey;
+  }
+  &__footer {
+    width: 100%;
+  }
+  &__button {
+    width: 280px !important;
+  }
+  &__info-input {
+    font-size: 13px;
+    color: $light-grey;
+    border: none;
+    outline: none;
+    text-align: end;
+  }
+  &__avatar-changeable {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #999999;
+    outline: none;
+    border: none;
+  }
+}

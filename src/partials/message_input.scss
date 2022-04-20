@@ -1,0 +1,31 @@
+@import "index";
+
+.message-input {
+  position: relative;
+  width: 100%;
+  &__placeholder {
+    font-size: 13px;
+    color: $light-grey;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(20px, -50%);
+  }
+  &__field {
+    border-radius: 30px;
+    background-color: $border-grey;
+    width: 100%;
+    display: block;
+    border: none;
+    height: 32px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: $light-grey;
+    padding: 0 20px;
+  }
+}
+
+.message-input__field:focus + .message-input__placeholder {
+  visibility: hidden;
+}

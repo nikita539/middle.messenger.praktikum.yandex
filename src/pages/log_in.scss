@@ -5,19 +5,26 @@
   &__title {
     text-align: center;
   }
-  &__footer__link {
+  &__footer-link {
     color: $blue;
     transition: transform 300ms;
     cursor: pointer;
+    text-decoration: none;
   }
   &__footer-link:hover {
     transform: scale(1.1);
     cursor: pointer;
   }
+  &__form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
   &__form {
     height: 100%;
     display: grid;
-    grid-template-rows: 300px auto;
+    grid-template-rows: 1fr auto;
+    row-gap: 30px;
   }
   &__footer {
     display: flex;
