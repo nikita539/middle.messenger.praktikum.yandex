@@ -15,7 +15,6 @@
     border-bottom: 2px solid $border_color;
     outline: 0;
     background: transparent;
-    font-size: 13px;
   }
   &__field:focus + .input__label {
     transition: 300ms;
