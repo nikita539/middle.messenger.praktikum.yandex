@@ -124,6 +124,24 @@
   &__chat-field {
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;overflow: auto;
+  }
+  &__from-their {
+    align-self: start;
+    background-color: $bubble-grey;
+    color: $bold_font;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+    margin: 5px 0;
+  }
+  &__from-me {
+    align-self: end;
+    background-color: $bubble-blue;
+    color: $bold_font;
+    padding: 10px;
+    border-radius: 10px 10px 0 10px;
+    margin: 5px 0;
   }
   &__header {
     width: 100%;
