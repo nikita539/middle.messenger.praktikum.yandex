@@ -20,40 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="added avatar image to changedata page">
-      <change afterPath="$PROJECT_DIR$/src/icons/around_arow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/clip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/points.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chat_feed.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chat_feed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/profile.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/sign_in.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/warning_page.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/warning_page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/message_input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/search_input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
-    <list id="59abff09-ead8-4a69-b8f0-284a58f4d71c" name="1) moved css files of components 2) added svg transformer 3) added svg icons" comment="">
-      <change beforePath="$PROJECT_DIR$/.parcelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myApp/myApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat_feed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat_feed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/log_in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/log_in.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/warning_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/warning_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/message_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/message_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/search_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/search_input.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
+    <list id="59abff09-ead8-4a69-b8f0-284a58f4d71c" name="1) moved css files of components 2) added svg transformer 3) added svg icons" comment="" />
     <list id="bce0894c-e3f4-4e29-8de7-7222a5c1a32d" name="added avatar image to changedata page" comment="" />
     <list id="bdd78dce-6805-494b-a1ac-ce58acb49fb5" name="added avatar images" comment="" />
     <list id="986fb52b-0f08-4eb5-a8c9-58536790868c" name="added styles for icons in chat_feed.hbs" comment="" />
     <list id="26941995-488a-41d9-9dfd-6c009eb21673" name="created pages 1) change_profile_data.hbs 2) warning_page.hbs" comment="" />
-    <list id="4f0ae058-9542-49b6-bb5f-a5d69df29470" name="created sig_in page" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/log_in.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/log_in.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/log_in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/log_in.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/input/input.js" beforeDir="false" />
-    </list>
+    <list id="4f0ae058-9542-49b6-bb5f-a5d69df29470" name="created sig_in page" comment="" />
     <list id="8725a0aa-ef77-4707-9a4f-f2d88afb70e0" name="pushed icons" comment="" />
     <list id="c4e2002d-6dd6-4f4e-afdd-977d4f8796a6" name="refactored links styles" comment="" />
     <list id="3779d64a-4256-4718-a549-332de55d7c28" name="refactored styles of inputs" comment="" />
@@ -95,9 +83,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MI\Desktop\chat\src\partials\input" />
-      <recent name="C:\Users\MI\Desktop\chat\src\partials" />
       <recent name="C:\Users\MI\Desktop\chat\src" />
+      <recent name="C:\Users\MI\Desktop\chat\sever" />
+      <recent name="C:\Users\MI\Desktop\chat\src\partials" />
+      <recent name="C:\Users\MI\Desktop\chat\src\partials\input" />
       <recent name="C:\Users\MI\Desktop\chat\src\components\input" />
     </key>
   </component>
@@ -137,7 +126,24 @@
       <workItem from="1649326781155" duration="11713000" />
       <workItem from="1649417398697" duration="3868000" />
       <workItem from="1649423577548" duration="7969000" />
+      <workItem from="1650456609257" duration="851000" />
+      <workItem from="1650549418673" duration="14103000" />
     </task>
+    <task id="LOCAL-00001" summary="moved input.scss">
+      <created>1650456478680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456478680</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created bubbles for messages">
+      <created>1650551921433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650551921433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,32 +160,47 @@
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="moved input.scss" />
+    <MESSAGE value="created bubbles for messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="created bubbles for messages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648150502482">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1648150502482" />
-    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1648840305618">
+    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1650643468016">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1648840305618" />
-    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1647973787996">
+    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1650643468016" />
+    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1650643420997">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1647973787996" />
+    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1650643420997" />
+    <state x="486" y="156" key="RollbackChangesDialog" timestamp="1650643416506">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="486" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1650643416506" />
     <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1647604572739" />
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1647524488676">
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1650551951856">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1647524488676" />
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1650551951856" />
     <state x="592" y="145" width="579" height="534" key="find.popup" timestamp="1649423821748">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
