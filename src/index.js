@@ -15,7 +15,6 @@ const WARNING_404 = "/warning_404";
 const WARNING_500 = "/warning_500";
 
 
-
 document.addEventListener('DOMContentLoaded', function () {
     let pathName = window.location.pathname
     const root = document.getElementById('root')

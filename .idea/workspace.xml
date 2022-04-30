@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="1) moved index.scss file&#10;2) crated express server">
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="added command to starting server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/myApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="59abff09-ead8-4a69-b8f0-284a58f4d71c" name="1) moved css files of components 2) added svg transformer 3) added svg icons" comment="" />
     <list id="bce0894c-e3f4-4e29-8de7-7222a5c1a32d" name="added avatar image to changedata page" comment="" />
@@ -72,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MI\Desktop\chat" />
       <recent name="C:\Users\MI\Desktop\chat\src\styles" />
       <recent name="C:\Users\MI\Desktop\chat\src" />
       <recent name="C:\Users\MI\Desktop\chat\sever" />
       <recent name="C:\Users\MI\Desktop\chat\src\partials" />
-      <recent name="C:\Users\MI\Desktop\chat\src\partials\input" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -124,7 +129,10 @@
       <workItem from="1650835094759" duration="3337000" />
       <workItem from="1650881885570" duration="709000" />
       <workItem from="1650891501293" duration="6910000" />
-      <workItem from="1650971599118" duration="1509000" />
+      <workItem from="1650971599118" duration="13918000" />
+      <workItem from="1651230463198" duration="673000" />
+      <workItem from="1651232201699" duration="1167000" />
+      <workItem from="1651260831587" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="moved input.scss">
       <created>1650456478680</created>
@@ -154,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650972454462</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added command to starting server">
+      <created>1650973240853</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650973240853</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,33 +202,34 @@
     <MESSAGE value="created bubbles for messages" />
     <MESSAGE value="1) moved index.scss file&#10;2) crated express server" />
     <MESSAGE value="moved styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved styles" />
+    <MESSAGE value="added command to starting server" />
+    <option name="LAST_COMMIT_MESSAGE" value="added command to starting server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650894540097">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1650894540097" />
-    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1650972453580">
+    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1651261588179">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1650972453580" />
-    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1650972433420">
+    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651261588179" />
+    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1651261584448">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1650972433420" />
-    <state x="486" y="156" key="RollbackChangesDialog" timestamp="1650643416506">
+    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1651261584448" />
+    <state x="486" y="156" key="RollbackChangesDialog" timestamp="1651261543122">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="486" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1650643416506" />
+    <state x="486" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1651261543122" />
     <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1647604572739" />
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1650972457087">
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1650973244020">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1650972457087" />
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1650973244020" />
     <state x="592" y="145" width="579" height="534" key="find.popup" timestamp="1649423821748">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
