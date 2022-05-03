@@ -4,4 +4,3 @@
 
 DEMO
 ссылка на Netlify - https://euphonious-stardust-0ea546.netlify.app/
-
