@@ -1,7 +1,20 @@
+---
+userChat: true,
+stylesheets: [
+../styles/chat_feed.scss,
+../styles/button.scss,
+../styles/message_input.scss,
+../styles/search_input.scss,
+../index.scss,
+]
+---
+
+{{!< layout}}
+
 <div class="chat-container">
     <div class="chat-feed">
         <div class="chat-feed__header">
-            <a class="chat-feed__back-button" href="/profile">Профиль</a>
+            <a class="chat-feed__back-button" href="./profile.hbs">Профиль</a>
             <div class="search-input">
                 <input class="search-input__field">
                 <span class="search-input__placeholder">Поиск</span>

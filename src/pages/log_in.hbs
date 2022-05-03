@@ -1,19 +1,22 @@
+---
+title: Войти
+labelTextUp: Логин
+labelTextDown: Пароль
+stylesheets: [
+../styles/first_page.scss,
+../styles/button.scss,
+../styles/input.scss,
+../index.scss,
+]
+---
+{{!< layout}}
+
 <div class="first-page">
     <h2 class="first-page__title" >{{title}}</h2>
     <form class="first-page__form" id="form">
         <div class="first-page__form-fields">
-            <div class="input">
-                <input class="input__field" id="inputName"/>
-                <label class="input__label">
-                    {{labelTextUp}}
-                </label>
-            </div>
-            <div class="input">
-                <input class="input__field" id="inputPass"/>
-                <label class="input__label">
-                    {{labelTextDown}}
-                </label>
-            </div>
+            {{> input labelText='Логин' id='login_first_page'}}
+            {{> input labelText='Пароль' id='password_first_page'}}
         </div>
         <div class="first-page__footer">
             <button
@@ -21,7 +24,7 @@
                     id="login_button"
                     type="submit"
             >Sign in</button>
-            <a class="first-page__footer-link" href="/sign_in">нет аккаунта?</a>
+            <a class="first-page__footer-link" href="./sign_in.hbs">нет аккаунта?</a>
         </div>
     </form>
 </div>

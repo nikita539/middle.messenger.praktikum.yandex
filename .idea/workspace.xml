@@ -19,15 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="added command to starting server">
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="1) moved server.js file &#10;2) changed package json`s sripts">
+      <change afterPath="$PROJECT_DIR$/handlebars.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/500.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/change_password.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/input.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/myApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat_feed.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat_feed.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/log_in.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/log_in.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign_in.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign_in.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/warning_page.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/log_in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/first_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="59abff09-ead8-4a69-b8f0-284a58f4d71c" name="1) moved css files of components 2) added svg transformer 3) added svg icons" comment="" />
@@ -77,12 +90,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MI\Desktop\chat" />
-      <recent name="C:\Users\MI\Desktop\chat\src\styles" />
-      <recent name="C:\Users\MI\Desktop\chat\src" />
-      <recent name="C:\Users\MI\Desktop\chat\sever" />
-      <recent name="C:\Users\MI\Desktop\chat\src\partials" />
+      <recent name="C:\Users\MI\Desktop\chat\src\pages" />
+      <recent name="C:\Users\MI\Desktop\chat\src\pages\warning_page" />
+      <recent name="C:\Users\MI\Desktop\chat\src\pages\sign_in" />
+      <recent name="C:\Users\MI\Desktop\chat\src\pages\profile" />
+      <recent name="C:\Users\MI\Desktop\chat\src\pages\log_in" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chat/src/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,6 +156,12 @@
       <workItem from="1651230463198" duration="673000" />
       <workItem from="1651232201699" duration="1167000" />
       <workItem from="1651260831587" duration="1502000" />
+      <workItem from="1651343109946" duration="178000" />
+      <workItem from="1651344939185" duration="789000" />
+      <workItem from="1651383707681" duration="2152000" />
+      <workItem from="1651387780017" duration="8243000" />
+      <workItem from="1651529716819" duration="3605000" />
+      <workItem from="1651565848510" duration="4691000" />
     </task>
     <task id="LOCAL-00001" summary="moved input.scss">
       <created>1650456478680</created>
@@ -210,14 +239,82 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1650894540097" />
-    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1651261588179">
+    <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651388632254">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651261588179" />
-    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1651261584448">
+    <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1651388632254" />
+    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1651414302507">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1651261584448" />
+    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651414302507" />
+    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1651414301349">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1651414301349" />
+    <state width="1515" height="260" key="GridCell.Tab.0.bottom" timestamp="1651387755141">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1651387755141" />
+    <state width="1515" height="260" key="GridCell.Tab.0.center" timestamp="1651387755141">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1651387755141" />
+    <state width="1515" height="260" key="GridCell.Tab.0.left" timestamp="1651387755141">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1651387755141" />
+    <state width="1515" height="260" key="GridCell.Tab.0.right" timestamp="1651387755141">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1651387755141" />
+    <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.bottom/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.1.center" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.center/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.1.left" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.left/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.1.right" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.right/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.2.bottom" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.2.bottom/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.2.center" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.2.center/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.2.left" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.2.left/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.2.right" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.2.right/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.3.bottom" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.3.bottom/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.3.center" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.3.center/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.3.left" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.3.left/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
+    <state width="1515" height="260" key="GridCell.Tab.3.right" timestamp="1651387755142">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.3.right/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
     <state x="486" y="156" key="RollbackChangesDialog" timestamp="1651261543122">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

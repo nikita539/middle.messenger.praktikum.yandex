@@ -1,53 +1,29 @@
+---
+stylesheets: [
+../styles/first_page.scss,
+../styles/button.scss,
+../styles/input.scss,
+../index.scss,
+]
+---
+
+{{!< layout}}
+
 <div class="first-page">
     <h2 class="first-page__title">Регистрация</h2>
     <form class="first-page__form">
         <div class="first-page__form-fields">
-            <div class="input">
-                <input class="input__field" id="inputMale"/>
-                <label class="input__label">
-                    {{labelTextMale}}
-                </label>
-            </div>
-            <div class="input">
-                <input class="input__field" id="inputLogin"/>
-                <label class="input__label">
-                    {{labelTextLogin}}
-                </label>
-            </div>
-            <div class="input">
-                <input class="input__field" id="inputName"/>
-                <label class="input__label">
-                    {{labelTextName}}
-                </label>
-            </div>
-            <div class="input">
-                <input class="input__field" id="inputLastName"/>
-                <label class="input__label">
-                    {{labelTextLastName}}
-                </label>
-            </div>
-            <div class="input">
-                <input class="input__field" id="inputNumber"/>
-                <label class="input__label">
-                    {{labelTextNumber}}
-                </label>
-            </div>
-            <div class="input">
-                <input class="input__field" id="inputPassword"/>
-                <label class="input__label">
-                    {{labelTextPassword}}
-                </label>
-            </div>
-            <div class="input">
-                <input class="input__field" id="inputRepeatPassword"/>
-                <label class="input__label">
-                    {{labelTextRepeatPassword}}
-                </label>
-            </div>
+            {{> input labelText='email' id='login_first_page'}}
+            {{> input labelText='login' id='login_first_page'}}
+            {{> input labelText='name' id='login_first_page'}}
+            {{> input labelText='last_name' id='login_first_page'}}
+            {{> input labelText='number' id='login_first_page'}}
+            {{> input labelText='password' id='login_first_page'}}
+            {{> input labelText='repeat_password' id='login_first_page'}}
         </div>
         <div class="first-page__footer">
             <button class="submit__button">Зарегистрироваться</button>
-            <a class="first-page__footer-link" href="/log_in">Войти</a>
+            <a class="first-page__footer-link" href="./log_in.hbs">Войти</a>
         </div>
     </form>
 </div>

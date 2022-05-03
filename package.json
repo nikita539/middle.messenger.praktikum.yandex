@@ -13,13 +13,21 @@
     "postcss-simple-vars": "^6.0.3",
     "process": "^0.11.10"
   },
-  "source": "src/index.html",
+  "source": [
+    "./src/pages/change_profile_data.hbs",
+    "./src/pages/chat_feed.hbs",
+    "./src/pages/log_in.hbs",
+    "./src/pages/sign_in.hbs",
+    "./src/pages/profile.hbs",
+    "./src/pages/404.hbs",
+    "./src/pages/500.hbs"
+  ],
   "scripts": {
     "dev": "parcel --no-cache",
     "build": "parcel build --no-cache",
     "start": "node server.js"
   },
   "dependencies": {
-    "@anikin/parcel-transformer-handlebars-precompile": "^1.0.1"
+    "@anikin/parcel-transformer-handlebars": "^1.0.9"
   }
 }
