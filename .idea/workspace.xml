@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="changed index.hbs" />
     <list id="59abff09-ead8-4a69-b8f0-284a58f4d71c" name="1) moved css files of components 2) added svg transformer 3) added svg icons" comment="" />
     <list id="bce0894c-e3f4-4e29-8de7-7222a5c1a32d" name="added avatar image to changedata page" comment="" />
     <list id="bdd78dce-6805-494b-a1ac-ce58acb49fb5" name="added avatar images" comment="" />
@@ -230,10 +228,10 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1651388632254" />
-    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1651570715786">
+    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1651584212390">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651570715786" />
+    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651584212390" />
     <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1651414301349">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
