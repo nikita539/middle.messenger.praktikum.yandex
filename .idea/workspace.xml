@@ -19,29 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="1) moved server.js file &#10;2) changed package json`s sripts">
-      <change afterPath="$PROJECT_DIR$/handlebars.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/layout.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/500.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/change_password.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/input.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/get.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/chat_feed.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat_feed.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/log_in.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/log_in.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/profile.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sign_in.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign_in.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/warning_page.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/log_in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/first_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.hbs" afterDir="false" />
     </list>
     <list id="59abff09-ead8-4a69-b8f0-284a58f4d71c" name="1) moved css files of components 2) added svg transformer 3) added svg icons" comment="" />
     <list id="bce0894c-e3f4-4e29-8de7-7222a5c1a32d" name="added avatar image to changedata page" comment="" />
@@ -161,7 +140,7 @@
       <workItem from="1651383707681" duration="2152000" />
       <workItem from="1651387780017" duration="8243000" />
       <workItem from="1651529716819" duration="3605000" />
-      <workItem from="1651565848510" duration="4691000" />
+      <workItem from="1651565848510" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="moved input.scss">
       <created>1650456478680</created>
@@ -198,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650973240853</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed work with templates">
+      <created>1651570719772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651570719772</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +218,8 @@
     <MESSAGE value="1) moved index.scss file&#10;2) crated express server" />
     <MESSAGE value="moved styles" />
     <MESSAGE value="added command to starting server" />
-    <option name="LAST_COMMIT_MESSAGE" value="added command to starting server" />
+    <MESSAGE value="completed work with templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed work with templates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650894540097">
@@ -243,10 +230,10 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1651388632254" />
-    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1651414302507">
+    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1651570715786">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651414302507" />
+    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651570715786" />
     <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1651414301349">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
@@ -323,10 +310,10 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1647604572739" />
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1650973244020">
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1651570721929">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1650973244020" />
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1651570721929" />
     <state x="592" y="145" width="579" height="534" key="find.popup" timestamp="1649423821748">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
