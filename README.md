@@ -16,5 +16,5 @@ node v16.14.2
  - сервер - [Express](https://expressjs.com/ru/)
  
  ### PRs
- - [sprint_1]()
+ - [sprint_1](https://github.com/nikita539/messengaer/pull/1)
 
