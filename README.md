@@ -2,7 +2,7 @@
  это учебный проект по разработке чата с помощью JS
 
 ### DEMO
-[Ссылка на чат Netlify](https://euphonious-stardust-0ea546.netlify.app/)
+[Ссылка на чат Netlify](https://resonant-sfogliatella-24f213.netlify.app/)
 
 ### Установка
 node v16.14.2
