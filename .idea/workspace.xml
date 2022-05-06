@@ -19,6 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="changed index.hbs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/500.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/500.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat_feed.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat_feed.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/chat_feed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/chat_feed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <list id="59abff09-ead8-4a69-b8f0-284a58f4d71c" name="1) moved css files of components 2) added svg transformer 3) added svg icons" comment="" />
+    <list id="bce0894c-e3f4-4e29-8de7-7222a5c1a32d" name="added avatar image to changedata page" comment="" />
+    <list id="bdd78dce-6805-494b-a1ac-ce58acb49fb5" name="added avatar images" comment="" />
+    <list id="986fb52b-0f08-4eb5-a8c9-58536790868c" name="added styles for icons in chat_feed.hbs" comment="" />
+    <list id="26941995-488a-41d9-9dfd-6c009eb21673" name="created pages 1) change_profile_data.hbs 2) warning_page.hbs" comment="" />
+    <list id="4f0ae058-9542-49b6-bb5f-a5d69df29470" name="created sig_in page" comment="" />
+    <list id="8725a0aa-ef77-4707-9a4f-f2d88afb70e0" name="pushed icons" comment="" />
+    <list id="c4e2002d-6dd6-4f4e-afdd-977d4f8796a6" name="refactored links styles" comment="" />
+    <list id="3779d64a-4256-4718-a549-332de55d7c28" name="refactored styles of inputs" comment="" />
+    <list id="ff7ce085-30ec-494c-b921-f594f8fcef26" name="Revert &quot;added avatar images&quot;" comment="Revert &quot;added avatar images&quot;&#10;&#10;This reverts commit d53cde49" />
+=======
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
@@ -58,6 +82,7 @@
       <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
