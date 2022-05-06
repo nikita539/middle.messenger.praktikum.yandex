@@ -1,0 +1,42 @@
+@import "../index";
+
+.first-page {
+  position: relative;
+  &__title {
+    text-align: center;
+  }
+  &__footer-link {
+    color: $blue;
+    transition: transform 300ms;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  &__footer-link:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  &__form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  &__form {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    row-gap: 30px;
+  }
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+  background-color: $white-theme;
+  width: 340px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 25px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+}
