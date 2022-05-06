@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="" />
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/around_arow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/clip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/points.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/500.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/change_password.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/chat_feed.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/log_in.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/profile.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign_in.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/input.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/chat_feed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/first_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/message_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/search_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/warning_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fd1aaf4ea0da9f6" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fd1aaf4ea0da9f6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fe4192728ea0d74" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fe4192728ea0d74" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/3abb05e3970a8500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/3abb05e3970a8500.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
