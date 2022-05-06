@@ -19,6 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="changed index.hbs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
@@ -41,23 +42,84 @@
     <list id="c4e2002d-6dd6-4f4e-afdd-977d4f8796a6" name="refactored links styles" comment="" />
     <list id="3779d64a-4256-4718-a549-332de55d7c28" name="refactored styles of inputs" comment="" />
     <list id="ff7ce085-30ec-494c-b921-f594f8fcef26" name="Revert &quot;added avatar images&quot;" comment="Revert &quot;added avatar images&quot;&#10;&#10;This reverts commit d53cde49" />
+=======
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/around_arow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/clip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/points.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/500.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/change_password.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/chat_feed.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/log_in.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/profile.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign_in.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/input.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/chat_feed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/first_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/message_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/search_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/warning_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fd1aaf4ea0da9f6" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fd1aaf4ea0da9f6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fe4192728ea0d74" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fe4192728ea0d74" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/3abb05e3970a8500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/3abb05e3970a8500.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="tsconfig.json" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1651851962" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="deploy" />
+                    <option name="lastUsedInstant" value="1651590931" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="sprint_1" />
+                    <option name="lastUsedInstant" value="1651590861" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="26SqHX0qZBmxDrv5fezTXg8wwlb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,32 +130,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON5" />
-    <property name="javascript.nodejs.core.library.configured.version" value="16.14.2" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="C:\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MI\Desktop\chat\src\pages" />
-      <recent name="C:\Users\MI\Desktop\chat\src\pages\warning_page" />
-      <recent name="C:\Users\MI\Desktop\chat\src\pages\sign_in" />
-      <recent name="C:\Users\MI\Desktop\chat\src\pages\profile" />
-      <recent name="C:\Users\MI\Desktop\chat\src\pages\log_in" />
+      <recent name="C:\Users\MI\Desktop\chat\src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chat/src/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,110 +150,12 @@
       <option name="presentableId" value="Default" />
       <updated>1647427250445</updated>
       <workItem from="1647427251605" duration="5764000" />
-      <workItem from="1647523453479" duration="15516000" />
-      <workItem from="1647684742029" duration="2223000" />
-      <workItem from="1647880808610" duration="8195000" />
-      <workItem from="1647964044368" duration="3900000" />
-      <workItem from="1647968188284" duration="5421000" />
-      <workItem from="1648142165396" duration="878000" />
-      <workItem from="1648149021141" duration="2813000" />
-      <workItem from="1648215537846" duration="5200000" />
-      <workItem from="1648237360538" duration="1248000" />
-      <workItem from="1648242397682" duration="361000" />
-      <workItem from="1648401725111" duration="8101000" />
-      <workItem from="1648753473542" duration="53000" />
-      <workItem from="1648808433252" duration="9701000" />
-      <workItem from="1648818600204" duration="756000" />
-      <workItem from="1648835017992" duration="5212000" />
-      <workItem from="1648840510155" duration="1298000" />
-      <workItem from="1648845806564" duration="732000" />
-      <workItem from="1648895884489" duration="10675000" />
-      <workItem from="1649021047918" duration="2124000" />
-      <workItem from="1649024128212" duration="1789000" />
-      <workItem from="1649091406165" duration="10000" />
-      <workItem from="1649181228347" duration="1423000" />
-      <workItem from="1649192753800" duration="296000" />
-      <workItem from="1649259686417" duration="1930000" />
-      <workItem from="1649326781155" duration="11713000" />
-      <workItem from="1649417398697" duration="3868000" />
-      <workItem from="1649423577548" duration="7969000" />
-      <workItem from="1650456609257" duration="851000" />
-      <workItem from="1650549418673" duration="14561000" />
-      <workItem from="1650662372463" duration="47000" />
-      <workItem from="1650666672029" duration="666000" />
-      <workItem from="1650716247652" duration="2956000" />
-      <workItem from="1650742302992" duration="335000" />
-      <workItem from="1650835094759" duration="3337000" />
-      <workItem from="1650881885570" duration="709000" />
-      <workItem from="1650891501293" duration="6910000" />
-      <workItem from="1650971599118" duration="13918000" />
-      <workItem from="1651230463198" duration="673000" />
-      <workItem from="1651232201699" duration="1167000" />
-      <workItem from="1651260831587" duration="1502000" />
-      <workItem from="1651343109946" duration="178000" />
-      <workItem from="1651344939185" duration="789000" />
-      <workItem from="1651383707681" duration="2152000" />
-      <workItem from="1651387780017" duration="8243000" />
-      <workItem from="1651529716819" duration="3605000" />
-      <workItem from="1651565848510" duration="5040000" />
+      <workItem from="1647523453479" duration="24491000" />
     </task>
-    <task id="LOCAL-00001" summary="moved input.scss">
-      <created>1650456478680</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1650456478680</updated>
-    </task>
-    <task id="LOCAL-00002" summary="created bubbles for messages">
-      <created>1650551921433</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1650551921433</updated>
-    </task>
-    <task id="LOCAL-00003" summary="1) moved index.scss file&#10;2) crated express server">
-      <created>1650652478378</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1650652478378</updated>
-    </task>
-    <task id="LOCAL-00004" summary="moved styles">
-      <created>1650972454462</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650972454462</updated>
-    </task>
-    <task id="LOCAL-00005" summary="added command to starting server">
-      <created>1650973240853</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1650973240853</updated>
-    </task>
-    <task id="LOCAL-00006" summary="completed work with templates">
-      <created>1651570719772</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1651570719772</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -221,119 +169,30 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="moved input.scss" />
-    <MESSAGE value="created bubbles for messages" />
-    <MESSAGE value="1) moved index.scss file&#10;2) crated express server" />
-    <MESSAGE value="moved styles" />
-    <MESSAGE value="added command to starting server" />
-    <MESSAGE value="completed work with templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed work with templates" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650894540097">
+    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647530163798">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1650894540097" />
-    <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651388632254">
+    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1647530163798" />
+    <state x="393" y="47" key="CommitChangelistDialog2" timestamp="1651675803705">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1651388632254" />
-    <state x="222" y="43" key="CommitChangelistDialog2" timestamp="1651584212390">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="222" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651584212390" />
-    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog" timestamp="1651414301349">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="0" y="108" width="1228" height="684" maximized="true" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1651414301349" />
-    <state width="1515" height="260" key="GridCell.Tab.0.bottom" timestamp="1651387755141">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1651387755141" />
-    <state width="1515" height="260" key="GridCell.Tab.0.center" timestamp="1651387755141">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1651387755141" />
-    <state width="1515" height="260" key="GridCell.Tab.0.left" timestamp="1651387755141">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1651387755141" />
-    <state width="1515" height="260" key="GridCell.Tab.0.right" timestamp="1651387755141">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1651387755141" />
-    <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.1.bottom/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.1.center" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.1.center/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.1.left" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.1.left/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.1.right" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.1.right/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.2.bottom" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.2.bottom/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.2.center" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.2.center/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.2.left" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.2.left/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.2.right" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.2.right/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.3.bottom" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.3.bottom/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.3.center" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.3.center/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.3.left" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.3.left/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state width="1515" height="260" key="GridCell.Tab.3.right" timestamp="1651387755142">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1515" height="260" key="GridCell.Tab.3.right/0.43.1536.821@0.43.1536.821" timestamp="1651387755142" />
-    <state x="486" y="156" key="RollbackChangesDialog" timestamp="1651261543122">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="486" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1651261543122" />
+    <state x="393" y="47" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651675803705" />
     <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1647604572739" />
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1651570721929">
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1647605781991">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1651570721929" />
-    <state x="592" y="145" width="579" height="534" key="find.popup" timestamp="1649423821748">
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1647605781991" />
+    <state x="478" y="186" width="579" height="534" key="find.popup" timestamp="1647608397281">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="592" y="145" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1649423821748" />
-    <state x="425" y="208" key="run.anything.popup" timestamp="1648150816344">
+    <state x="478" y="186" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1647608397281" />
+    <state x="431" y="185" key="search.everywhere.popup" timestamp="1647608381716">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="425" y="208" key="run.anything.popup/0.43.1536.821@0.43.1536.821" timestamp="1648150816344" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1648907220711">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1648907220711" />
+    <state x="431" y="185" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1647608381716" />
   </component>
 </project>
