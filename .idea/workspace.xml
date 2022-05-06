@@ -20,16 +20,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1651851962" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="deploy" />
                     <option name="lastUsedInstant" value="1651590931" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="sprint_1" />
                     <option name="lastUsedInstant" value="1651590861" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1651590860" />
                   </RecentBranch>
                 </list>
               </option>
