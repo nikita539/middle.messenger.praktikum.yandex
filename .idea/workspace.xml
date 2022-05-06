@@ -19,7 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="changed index.hbs" />
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="changed index.hbs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/500.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/500.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat_feed.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat_feed.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/chat_feed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/chat_feed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <list id="59abff09-ead8-4a69-b8f0-284a58f4d71c" name="1) moved css files of components 2) added svg transformer 3) added svg icons" comment="" />
     <list id="bce0894c-e3f4-4e29-8de7-7222a5c1a32d" name="added avatar image to changedata page" comment="" />
     <list id="bdd78dce-6805-494b-a1ac-ce58acb49fb5" name="added avatar images" comment="" />

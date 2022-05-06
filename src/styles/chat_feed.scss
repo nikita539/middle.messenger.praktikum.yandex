@@ -164,8 +164,32 @@
     width: 40px;
     height: 40px;
   }
+  &__points-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("../icons/points.svg");
+    margin-left: auto;
+  }
+  &__clip-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url("../icons/clip.svg");
+  }
+  &__around-arrow-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url("../icons/around_arow.svg");
+  }
   &__warning-message {
     font-size: 13px;
     color: $light-grey;
   }
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: baseline;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
