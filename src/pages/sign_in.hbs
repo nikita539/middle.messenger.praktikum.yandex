@@ -1,0 +1,29 @@
+---
+stylesheets: [
+../styles/first_page.scss,
+../styles/button.scss,
+../styles/input.scss,
+../index.scss,
+]
+---
+
+{{!< layout}}
+
+<div class="first-page">
+    <h2 class="first-page__title">Регистрация</h2>
+    <form class="first-page__form">
+        <div class="first-page__form-fields">
+            {{> input labelText='email' id='login_first_page'}}
+            {{> input labelText='login' id='login_first_page'}}
+            {{> input labelText='name' id='login_first_page'}}
+            {{> input labelText='last_name' id='login_first_page'}}
+            {{> input labelText='number' id='login_first_page'}}
+            {{> input labelText='password' id='login_first_page'}}
+            {{> input labelText='repeat_password' id='login_first_page'}}
+        </div>
+        <div class="first-page__footer">
+            <button class="submit__button">Зарегистрироваться</button>
+            <a class="first-page__footer-link" href="./log_in.hbs">Войти</a>
+        </div>
+    </form>
+</div>

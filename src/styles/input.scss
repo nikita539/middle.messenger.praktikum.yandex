@@ -1,0 +1,23 @@
+@import "src/index";
+
+.input {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+  &__label {
+    position: absolute;
+    bottom: 0;
+    color: $light-grey;
+  }
+  &__field {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid $border_color;
+    outline: 0;
+    background: transparent;
+  }
+  &__field:focus + .input__label {
+    transition: 300ms;
+    bottom: 20px;
+  }
+}

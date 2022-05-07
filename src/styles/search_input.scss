@@ -1,0 +1,30 @@
+@import "src/index";
+
+.search-input {
+  position: relative;
+  &__placeholder {
+    font-size: 13px;
+    color: $light-grey;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+  &__field {
+    border-radius: 5px;
+    background-color: $border-grey;
+    width: 100%;
+    display: block;
+    border: none;
+    height: 32px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: $light-grey;
+    padding: 0 20px;
+  }
+}
+
+.search-input__field:focus + .search-input__placeholder {
+  visibility: hidden;
+}
