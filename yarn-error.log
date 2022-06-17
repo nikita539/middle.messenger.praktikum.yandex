@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js dev
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
 
 PATH: 
-  C:\Users\MI\Desktop\chat\node_modules\.bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Library\Developer\Toolchains\unknown-Asserts-development.xctoolchain\usr\bin;C:\Library\Swift-development\bin;C:\Library\icu-67\usr\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Users\MI\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\MI\AppData\Local\Programs\Python\Python38-32\;C:\Users\MI\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.4\bin;;;C:\Users\MI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2019.3.4\bin;;C:\WebStorm 2020.2.3\bin;;C:\Users\MI\AppData\Local\Yarn\bin;C:\Users\MI\AppData\Roaming\npm
+  C:\Users\MI\Desktop\middle.messenger.praktikum.yandex\node_modules\.bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Library\Developer\Toolchains\unknown-Asserts-development.xctoolchain\usr\bin;C:\Library\Swift-development\bin;C:\Library\icu-67\usr\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Users\MI\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\MI\AppData\Local\Programs\Python\Python38-32\;C:\Users\MI\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.4\bin;;;C:\Users\MI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2019.3.4\bin;;C:\WebStorm 2020.2.3\bin;;C:\Users\MI\AppData\Local\Yarn\bin;C:\Users\MI\AppData\Roaming\npm
 
 Yarn version: 
   1.22.5
@@ -14,12 +14,17 @@ Platform:
   win32 x64
 
 Trace: 
-  SyntaxError: C:\Users\MI\Desktop\chat\package.json: Unexpected token ' in JSON at position 437
-      at JSON.parse (<anonymous>)
-      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
-      at Generator.next (<anonymous>)
-      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
-      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+  Error: https://registry.yarnpkg.com/esModuleInterop: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66097:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140749:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141721:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
 
 npm manifest: 
   {
@@ -31,21 +36,21 @@ npm manifest:
       "handlebars": "^4.7.7",
       "parcel": "^2.3.2",
       "path-browserify": "^1.0.1",
+      "esModuleInterop": "true",
       "postcss": "^8.4.12",
       "postcss-mixins": "^9.0.2",
       "postcss-nested": "^5.0.6",
       "postcss-simple-vars": "^6.0.3",
       "process": "^0.11.10"
     },
-    "source": ["src/index.hbs", 'src/pages/*.hbs'],
+    "source": "./src/index.html",
     "scripts": {
       "dev": "parcel --no-cache",
       "build": "parcel build --no-cache",
       "start": "node server.js"
     },
     "dependencies": {
-      "@anikin/parcel-transformer-handlebars": "^1.0.9",
-      "@anikin/parcel-transformer-handlebars-precompile": "^1.0.1"
+      "@anikin/parcel-transformer-handlebars": "^1.0.9"
     }
   }
 
@@ -56,11 +61,6 @@ Lockfile:
   # THIS IS AN AUTOGENERATED FILE. DO NOT EDIT THIS FILE DIRECTLY.
   # yarn lockfile v1
   
-  
-  "@anikin/parcel-transformer-handlebars-precompile@^1.0.1":
-    version "1.0.1"
-    resolved "https://registry.yarnpkg.com/@anikin/parcel-transformer-handlebars-precompile/-/parcel-transformer-handlebars-precompile-1.0.1.tgz#1ee3339f2e6e78c17a19ff8b9bfb5a6db4c4ca3d"
-    integrity sha512-UJ5fHr0KZ4qC1olgQkJLHYO+GS29CgIuKNF9ZoT/U/eyLEWHw7+8UOgoiJudgp2tPqpB71d+zbPfTIO6sXee9g==
   
   "@anikin/parcel-transformer-handlebars@^1.0.9":
     version "1.0.9"

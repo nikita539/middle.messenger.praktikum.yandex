@@ -20,43 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.parcelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/around_arow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/clip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/points.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/layout.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/404.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/500.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/change_password.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chat_feed.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/log_in.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/profile.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/sign_in.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/input.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/chat_feed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/first_page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/message_input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/search_input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/warning_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input/input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Block.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/eventBus.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/registerComponents.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/renderDOM.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typing.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fc3881870e9181d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fd1aaf4ea0da9f6" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fd1aaf4ea0da9f6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/2fe4192728ea0d74" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/2fe4192728ea0d74" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/3abb05e3970a8500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/3abb05e3970a8500.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/oldPages/404.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/500.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/oldPages/500.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/change_password.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/oldPages/change_password.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/change_profile_data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/oldPages/change_profile_data.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat_feed.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/oldPages/chat_feed.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/log_in.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/oldPages/log_in.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/oldPages/profile.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign_in.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/oldPages/sign_in.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/chat_feed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/chat_feed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/first_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/first_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/message_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/message_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/search_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/search_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/warning_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/warning_page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -109,6 +107,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -126,6 +125,11 @@
       <updated>1647427250445</updated>
       <workItem from="1647427251605" duration="5764000" />
       <workItem from="1647523453479" duration="24491000" />
+      <workItem from="1652693434778" duration="2035000" />
+      <workItem from="1653643808139" duration="1386000" />
+      <workItem from="1654186599046" duration="3582000" />
+      <workItem from="1654778110078" duration="231000" />
+      <workItem from="1655474530473" duration="7432000" />
     </task>
     <servers />
   </component>
@@ -149,10 +153,14 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1647530163798" />
-    <state x="393" y="47" key="CommitChangelistDialog2" timestamp="1651675803705">
+    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1655483084168">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="47" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1651675803705" />
+    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1655483084168" />
+    <state x="151" y="108" key="DiffContextDialog" timestamp="1653643948365">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="151" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1653643948365" />
     <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

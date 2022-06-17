@@ -7,21 +7,14 @@
     "handlebars": "^4.7.7",
     "parcel": "^2.3.2",
     "path-browserify": "^1.0.1",
+    "esModuleInterop": "true",
     "postcss": "^8.4.12",
     "postcss-mixins": "^9.0.2",
     "postcss-nested": "^5.0.6",
     "postcss-simple-vars": "^6.0.3",
     "process": "^0.11.10"
   },
-  "source": [
-    "./src/pages/change_profile_data.hbs",
-    "./src/pages/chat_feed.hbs",
-    "./src/pages/log_in.hbs",
-    "./src/pages/sign_in.hbs",
-    "./src/pages/profile.hbs",
-    "./src/pages/404.hbs",
-    "./src/pages/500.hbs"
-  ],
+  "source": "./src/index.html",
   "scripts": {
     "dev": "parcel --no-cache",
     "build": "parcel build --no-cache",
