@@ -1,8 +1,9 @@
-
 .input {
   width: 100%;
   position: relative;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
   &__label {
     position: absolute;
     bottom: 0;
@@ -18,5 +19,11 @@
   &__field:focus + .input__label {
     transition: 300ms;
     bottom: 20px;
+  }
+  &__error {
+    color: $red;
+    margin: 0;
+    padding: 0;
+    display: none;
   }
 }
