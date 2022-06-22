@@ -1,4 +1,5 @@
 import Block from "../../core/Block";
+import { passwordValidation, loginValidation } from "../../modules/validation";
 
 
 interface SignInProps {
@@ -16,7 +17,7 @@ export class SignInPage extends Block {
         }
 
         const onSubmit = (e: Event) => {
-            console.log(this.state)
+            this.validate()
             e.preventDefault()
         }
 
@@ -35,23 +36,51 @@ export class SignInPage extends Block {
             values: {
                 login: '',
                 password: ''
-            }
+            },
+            errors: {
+                password: '',
+                login: '',
+            },
+            validators: {
+                login: () => {
+                    const validationResult = loginValidation(this.state.values.login);
+                    if (validationResult.isFailure) {
+                        this.state.errors.login = validationResult.error;
+                    } else {
+                        this.state.errors.login = "";
+                    }
+                    this.setState(this.state);
+                },
+                password: () => {
+                    const nextSate = { ...this.state };
+                    const validationResult = passwordValidation(this.state.values.password);
+                    if (validationResult.isFailure) {
+                        nextSate.errors.password = validationResult.error;
+                    } else {
+                        nextSate.errors.password = "";
+                    }
+                    this.setState(nextSate);
+                },
+            },
         }
     }
 
+    validate() {
+       Object.values(this.state.validators).forEach(fn => (fn as () => void)())
+    }
+
     render(): string {
-        const { values } = this.state
+        const { values, errors } = this.state
         return `<div class="first-page">
     <h2 class="first-page__title" >{{title}}</h2>
     <form class="first-page__form" id="form">
         <div class="first-page__form-fields">
-            {{{ 
-            InputBlock 
+            {{{ InputBlock 
             labelText='Логин'
             name='login' 
             value="${values.login}"
             id='login_first_page'
-            errorText='error'
+            errorText="${errors.login}"
             }}}
             
             {{{ InputBlock 
@@ -59,7 +88,7 @@ export class SignInPage extends Block {
             name='password' 
             value="${values.password}" 
             id='password_first_page'
-            errorText='error'
+            errorText="${errors.password}"
             }}}
         </div>
         <div class="first-page__footer">

@@ -20,11 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/email.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/errorMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/name.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/password.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/phone.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validation/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input/input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/input.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/registerComponents.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/registerComponents.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/login/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/signin/signin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signin/signin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/first_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/first_page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/input.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +111,7 @@
       <workItem from="1654778110078" duration="231000" />
       <workItem from="1655474530473" duration="7432000" />
       <workItem from="1655731319440" duration="7498000" />
-      <workItem from="1655812657756" duration="6710000" />
+      <workItem from="1655812657756" duration="20649000" />
     </task>
     <servers />
   </component>
@@ -151,10 +159,10 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1647605781991" />
-    <state x="478" y="186" width="579" height="534" key="find.popup" timestamp="1655815559290">
+    <state x="478" y="186" width="579" height="534" key="find.popup" timestamp="1655920579054">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="478" y="186" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1655815559290" />
+    <state x="478" y="186" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1655920579054" />
     <state x="431" y="185" key="search.everywhere.popup" timestamp="1647608381716">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
