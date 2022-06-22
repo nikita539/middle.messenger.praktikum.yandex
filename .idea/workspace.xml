@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="" />
+    <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/styles/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/input.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,10 +118,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655736056872">
+    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655925052122">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1655736056872" />
+    <state x="530" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1655925052122" />
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1655731970249">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

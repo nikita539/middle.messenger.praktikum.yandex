@@ -1,7 +1,6 @@
 
 .first-page {
   position: relative;
-  max-height: 700px;
   &__title {
     text-align: center;
   }
@@ -24,7 +23,6 @@
     height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
-    row-gap: 30px;
   }
   &__footer {
     display: flex;

@@ -11,15 +11,15 @@ export class InputBlock extends Block{
     }
     render(): string {
         return `<div class="input">
+                    <label class="input__label">
+                         {{labelText}}
+                    </label>
                     <input 
                         class="input__field" 
                         id={{id}}
                         name={{name}}
                         {{#if value}}value="{{value}}"{{/if}}
                     />
-                    <label class="input__label">
-                         {{labelText}}
-                    </label>
                     {{#if errorText}}
                     <p class="input__error">{{errorText}}</p>
                     {{/if}}

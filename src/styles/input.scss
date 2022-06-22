@@ -5,8 +5,6 @@
   display: flex;
   flex-direction: column;
   &__label {
-    position: absolute;
-    bottom: 0;
     color: $light-grey;
   }
   &__field {
@@ -15,12 +13,10 @@
     border-bottom: 2px solid $border_color;
     outline: 0;
     background: transparent;
-  }
-  &__field:focus + .input__label {
-    transition: 300ms;
-    bottom: 20px;
+    font-size: 20px;
   }
   &__error {
+    font-size: 14px;
     color: $red;
     margin: 0;
     padding: 0;
