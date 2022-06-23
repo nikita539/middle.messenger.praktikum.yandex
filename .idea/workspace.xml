@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stylelintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Block.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Block.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,18 +135,34 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1655731970249" />
-    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1655989222817">
+    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1655990703360">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1655989222817" />
-    <state x="151" y="108" key="DiffContextDialog" timestamp="1655925769931">
+    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1655990703360" />
+    <state x="151" y="108" key="DiffContextDialog" timestamp="1655990697265">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="151" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1655925769931" />
-    <state x="530" y="156" key="RollbackChangesDialog" timestamp="1655925772958">
+    <state x="151" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1655990697265" />
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom" timestamp="1655990749119">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="530" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1655925772958" />
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1655990749119" />
+    <state width="1515" height="209" key="GridCell.Tab.0.center" timestamp="1655990749119">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1655990749119" />
+    <state width="1515" height="209" key="GridCell.Tab.0.left" timestamp="1655990749119">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1655990749119" />
+    <state width="1515" height="209" key="GridCell.Tab.0.right" timestamp="1655990749119">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1655990749119" />
+    <state x="530" y="156" key="RollbackChangesDialog" timestamp="1655990700987">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="530" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1655990700987" />
     <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

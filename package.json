@@ -2,23 +2,29 @@
   "devDependencies": {
     "@parcel/transformer-sass": "2.3.2",
     "@parcel/transformer-svg": "^2.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
     "autoprefixer": "^10.4.4",
+    "eslint": "^8.18.0",
     "express": "^4.18.0",
     "handlebars": "^4.7.7",
     "parcel": "^2.3.2",
     "path-browserify": "^1.0.1",
-    "esModuleInterop": "true",
     "postcss": "^8.4.12",
     "postcss-mixins": "^9.0.2",
     "postcss-nested": "^5.0.6",
     "postcss-simple-vars": "^6.0.3",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "stylelint-scss": "^4.2.0",
+    "typescript": "^4.7.4"
   },
   "source": "./src/index.html",
   "scripts": {
     "dev": "parcel --no-cache",
     "build": "parcel build  ./src/staticPages/*.html --no-cache",
-    "start": "node server.js"
+    "start": "node server.js",
+    "eslint": "eslint ./src --fix --ext .js,.ts",
+    "lint:scss": "npx stylelint \"**/*.css\""
   },
   "dependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9"
