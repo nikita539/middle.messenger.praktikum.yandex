@@ -18,4 +18,3 @@ node v16.14.2
  ### PRs
  - [sprint_1](https://github.com/nikita539/middle.messenger.praktikum.yandex/pull/1)
  - [исправления по коментариям](https://github.com/nikita539/middle.messenger.praktikum.yandex/pull/2)
-

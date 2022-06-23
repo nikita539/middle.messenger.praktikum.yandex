@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/input/input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/input.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Block.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Block.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,10 +128,10 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1655731970249" />
-    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1655988857401">
+    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1655989222817">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1655988857401" />
+    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1655989222817" />
     <state x="151" y="108" key="DiffContextDialog" timestamp="1655925769931">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
