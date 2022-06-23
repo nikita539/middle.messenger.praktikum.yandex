@@ -6,6 +6,7 @@ interface InputProps {
 }
 
 export class InputBlock extends Block{
+    static componentName = "InputBlock"
     constructor(props: InputProps) {
         super({...props});
     }
