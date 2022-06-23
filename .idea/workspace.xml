@@ -20,7 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/styles/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/404.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/500.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/changePassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/changePassword.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/changeProfileData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/changeProfileData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/chat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/profile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticPages/signin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/input.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404/404.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404/404.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/500/500.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/500/500.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat/chat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat/chat.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/signin/signin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signin/signin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +124,7 @@
       <workItem from="1655474530473" duration="7432000" />
       <workItem from="1655731319440" duration="7498000" />
       <workItem from="1655812657756" duration="20649000" />
+      <workItem from="1655978723003" duration="6137000" />
     </task>
     <servers />
   </component>
@@ -126,18 +152,18 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1655731970249" />
-    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1655924966774">
+    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1655926303828">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1655924966774" />
-    <state x="151" y="108" key="DiffContextDialog" timestamp="1653643948365">
+    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1655926303828" />
+    <state x="151" y="108" key="DiffContextDialog" timestamp="1655925769931">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="151" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1653643948365" />
-    <state x="530" y="156" key="RollbackChangesDialog" timestamp="1655924955394">
+    <state x="151" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1655925769931" />
+    <state x="530" y="156" key="RollbackChangesDialog" timestamp="1655925772958">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="530" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1655924955394" />
+    <state x="530" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1655925772958" />
     <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

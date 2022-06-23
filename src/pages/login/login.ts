@@ -25,12 +25,27 @@ export class LoginPage extends Block {
             console.log(this.state)
             e.preventDefault()
         }
+        const onFocus = (e: Event) => {
+            const target = e.target as HTMLInputElement;
+            if (target) {
+                this.state.errors[target.name] = " "
+            }
+        }
+
+        const onBlur = (e: Event) => {
+            const target = e.target as HTMLInputElement;
+            if (target) {
+                this.state.validators[target.name]()
+            }
+        }
 
         const propsToComponent = {
             ...props,
             events: {
                 input: onChange,
                 submit: onSubmit,
+                focusin: onFocus,
+                focusout: onBlur,
             }
         }
         super(propsToComponent);
@@ -39,13 +54,13 @@ export class LoginPage extends Block {
     protected getStateFromProps(props: any) {
         this.state = {
             values: {
-                email: '',
-                login: '',
-                name: '',
-                last_name: '',
-                number: '',
-                password: '',
-                repeat_password: ''
+                email: "",
+                login: "",
+                first_name: "",
+                second_name: "",
+                phone: "",
+                password: "",
+                password_confirm: "",
             },
             errors: {
                 email: "",
@@ -58,13 +73,12 @@ export class LoginPage extends Block {
             },
             validators: {
                 email: () => {
-                    const validationResult = emailValidation(this.state.values.email);
+                    const validationResult = emailValidation(this.state.values.email)
                     if (validationResult.isFailure) {
-                        this.state.errors.email = validationResult.error;
+                        this.state.errors.email = validationResult.error
                     } else {
-                        this.state.errors.email = "";
+                        this.state.errors.email = ""
                     }
-                    this.setState(this.state);
                 },
                 login: () => {
                     const validationResult = loginValidation(this.state.values.login);
@@ -138,63 +152,50 @@ export class LoginPage extends Block {
     <h2 class="first-page__title">Регистрация</h2>
     <form class="first-page__form">
             {{{ InputBlock 
-            labelText='email' 
-            value="${values.email}" 
-            name='email' 
-            id='login_first_page' 
-            errorText="${errors.email}" 
+                labelText="Почта" 
+                name="email"    
+                value="${values.email}"
+                errorText="${errors.email}"                
             }}}
-            
             {{{ InputBlock 
-            labelText='login' 
-            name='login' 
-            value="${values.login}" 
-            id='login_first_page' 
-            errorText="${errors.login}"
+                labelText="Логин" 
+                name="login"                                 
+                value="${values.login}"
+                errorText="${errors.login}"               
             }}}
-            
             {{{ InputBlock 
-            labelText='name' 
-            name='name' 
-            value="${values.name}" 
-            id='login_first_page' 
-            errorText="${errors.first_name}"
+                labelText="Имя" 
+                name="first_name"               
+                value="${values.first_name}"
+                errorText="${errors.first_name}"                
             }}}
-            
             {{{ InputBlock 
-            labelText='last_name' 
-            name='last_name' 
-            value="${values.last_name}" 
-            id='login_first_page' 
-            errorText="${errors.second_name}"
+                labelText="Фамилия" 
+                name="second_name"                                                 
+                value="${values.second_name}"
+                errorText="${errors.second_name}"                
             }}}
-            
             {{{ InputBlock 
-            labelText='number' 
-            name='number'
-            value="${values.number}" 
-            id='login_first_page' 
-            errorText="${errors.phone}"
+                labelText="Телефон" 
+                name="phone"                                                 
+                value="${values.phone}"
+                errorText="${errors.phone}"                
             }}}
-            
             {{{ InputBlock 
-            labelText='password' 
-            name='password' 
-            value="${values.password}" 
-            id='login_first_page'
-            errorText="${errors.password}"
+                labelText="Пароль" 
+                name="password"                                                  
+                value="${values.password}"
+                errorText="${errors.password}"                
             }}}
-            
             {{{ InputBlock 
-            labelText='repeat_password' 
-            name='repeat_password' 
-            value="${values.repeat_password}" 
-            id='login_first_page' 
-            errorText="${errors.password_confirm}"  
+                labelText="Пароль (еще раз)"
+                name="password_confirm"                                                
+                value="${values.password_confirm}"
+                errorText="${errors.password_confirm}"                
             }}}
         <div class="first-page__footer">
             <button class="submit__button">Зарегистрироваться</button>
-            <a class="first-page__footer-link" href="./sign_in.hbs">Войти</a>
+            <a class="first-page__footer-link" href="./signin.html">Войти</a>
         </div>
     </form>
 </div>`

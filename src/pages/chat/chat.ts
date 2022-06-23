@@ -14,7 +14,7 @@ export class ChatPage extends Block {
         return `<div class="chat-container">
     <div class="chat-feed">
         <div class="chat-feed__header">
-            <a class="chat-feed__back-button" href="./profile.hbs">Профиль</a>
+            <a class="chat-feed__back-button" href="./profile.html">Профиль</a>
             <div class="search-input">
                 <input class="search-input__field">
                 <span class="search-input__placeholder">Поиск</span>

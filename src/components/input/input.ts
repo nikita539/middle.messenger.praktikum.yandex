@@ -16,7 +16,6 @@ export class InputBlock extends Block{
                     </label>
                     <input 
                         class="input__field" 
-                        id={{id}}
                         name={{name}}
                         {{#if value}}value="{{value}}"{{/if}}
                     />

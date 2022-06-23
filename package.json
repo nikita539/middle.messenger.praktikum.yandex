@@ -17,7 +17,7 @@
   "source": "./src/index.html",
   "scripts": {
     "dev": "parcel --no-cache",
-    "build": "parcel build --no-cache",
+    "build": "parcel build  ./src/staticPages/*.html --no-cache",
     "start": "node server.js"
   },
   "dependencies": {

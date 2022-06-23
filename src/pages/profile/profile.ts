@@ -44,9 +44,9 @@ export class ProfilePage extends Block {
     </div>
     <div class="profile-page__footer">
         <div class="profile-page__row">
-            <a class="profile-page__footer-link" href="./change_profile_data.hbs">Изменить данные</a>
+            <a class="profile-page__footer-link" href="./changeProfileData.html">Изменить данные</a>
         </div><div class="profile-page__row">
-        <a class="profile-page__footer-link" href="./change_password.hbs">Изменить пароль</a>
+        <a class="profile-page__footer-link" href="./changePassword.html">Изменить пароль</a>
     </div><div class="profile-page__row">
         <a class="profile-page__exit-link">Выйти</a>
     </div>

@@ -21,11 +21,27 @@ export class SignInPage extends Block {
             e.preventDefault()
         }
 
+        const onBlur = (e: Event) => {
+            const target = e.target as HTMLInputElement;
+            if (target) {
+                this.state.validators[target.name]()
+            }
+        }
+
+        const onFocus = (e: Event) => {
+            const target = e.target as HTMLInputElement;
+            if (target) {
+                this.state.errors[target.name] = " "
+            }
+        }
+
         const propsToComponent = {
             ...props,
             events: {
                 input: onChange,
                 submit: onSubmit,
+                focusin: onFocus,
+                focusout: onBlur,
             }
         }
         super(propsToComponent);
@@ -97,7 +113,7 @@ export class SignInPage extends Block {
                     id="login_button"
                     type="submit"
             >Sign in</button>
-            <a class="first-page__footer-link" href="./log_in.hbs">нет аккаунта?</a>
+            <a class="first-page__footer-link" href="./login.html">нет аккаунта?</a>
         </div>
     </form>
 </div>`
