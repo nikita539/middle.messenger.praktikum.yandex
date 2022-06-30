@@ -1,7 +1,7 @@
 import { renderDOM } from "../core";
-import ChangeProfileData from '../pages/changeProfileData'
+import { ChangeProfileDataPage } from '../pages/changeProfileData'
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    renderDOM(ChangeProfileData)
+    renderDOM(ChangeProfileDataPage)
 })

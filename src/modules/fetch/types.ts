@@ -1,4 +1,4 @@
-export enum METHODS {
+export enum Methods {
     GET = "GET",
     PUT = "PUT",
     POST = "POST",
@@ -9,5 +9,5 @@ export interface IFetchOptions<T> {
     data?: T
     headers?: Record<string, string>
     timeout?: number
-    method: METHODS
+    method: Methods
 }

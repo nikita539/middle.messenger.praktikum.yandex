@@ -11,7 +11,7 @@ interface LoginPageProps {
     title: string
 }
 
-export class LoginPage extends Block {
+export class Page extends Block<LoginPageProps> {
     constructor(props: LoginPageProps) {
         const onChange = (e: Event) => {
             const target = e.target as HTMLInputElement;
@@ -73,70 +73,76 @@ export class LoginPage extends Block {
             },
             validators: {
                 email: () => {
+                    const nextState = { ...this.state }
                     const validationResult = emailValidation(this.state.values.email)
                     if (validationResult.isFailure) {
-                        this.state.errors.email = validationResult.error
+                        nextState.errors.email = validationResult.error
                     } else {
-                        this.state.errors.email = ""
+                        nextState.errors.email = ""
                     }
+                    this.setState(nextState)
                 },
                 login: () => {
+                    const nextState = { ...this.state }
                     const validationResult = loginValidation(this.state.values.login);
                     if (validationResult.isFailure) {
-                        this.state.errors.login = validationResult.error;
+                        nextState.errors.login = validationResult.error;
                     } else {
-                        this.state.errors.login = "";
+                        nextState.errors.login = "";
                     }
-                    this.setState(this.state);
+                    this.setState(nextState);
                 },
                 first_name: () => {
+                    const nextState = { ...this.state }
                     const validationResult = nameValidation(this.state.values.first_name);
                     if (validationResult.isFailure) {
-                        this.state.errors.first_name = validationResult.error;
+                        nextState.errors.first_name = validationResult.error;
                     } else {
-                        this.state.errors.first_name = "";
+                        nextState.errors.first_name = "";
                     }
-                    this.setState(this.state);
+                    this.setState(nextState);
                 },
                 second_name: () => {
+                    const nextState = {...this.state}
                     const validationResult = nameValidation(this.state.values.second_name);
                     if (validationResult.isFailure) {
-                        this.state.errors.second_name = validationResult.error;
+                        nextState.errors.second_name = validationResult.error;
                     } else {
-                        this.state.errors.second_name = "";
+                        nextState.errors.second_name = "";
                     }
-                    this.setState(this.state);
+                    this.setState(nextState);
                 },
                 phone: () => {
+                    const nextState = { ...this.state }
                     const validationResult = phoneValidation(this.state.values.phone);
                     if (validationResult.isFailure) {
-                        this.state.errors.phone = validationResult.error;
+                        nextState.errors.phone = validationResult.error;
                     } else {
-                        this.state.errors.phone = "";
+                        nextState.errors.phone = "";
                     }
-                    this.setState(this.state);
+                    this.setState(nextState);
                 },
                 password: () => {
-                    const nextSate = { ...this.state };
+                    const nextState = { ...this.state };
                     const validationResult = passwordValidation(this.state.values.password);
                     if (validationResult.isFailure) {
-                        nextSate.errors.password = validationResult.error;
+                        nextState.errors.password = validationResult.error;
                     } else {
-                        nextSate.errors.password = "";
+                        nextState.errors.password = "";
                     }
-                    this.setState(nextSate);
+                    this.setState(nextState);
                 },
                 password_confirm: () => {
-                    const nextSate = { ...this.state };
+                    const nextState = { ...this.state };
                     const validationResult = passwordValidation(
                         this.state.values.password_confirm
                     );
                     if (validationResult.isFailure) {
-                        nextSate.errors.password_confirm = validationResult.error;
+                        nextState.errors.password_confirm = validationResult.error;
                     } else {
-                        nextSate.errors.password_confirm = "";
+                        nextState.errors.password_confirm = "";
                     }
-                    this.setState(nextSate);
+                    this.setState(nextState);
                 },
             },
         }

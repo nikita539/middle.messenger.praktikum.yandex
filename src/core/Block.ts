@@ -8,7 +8,7 @@ interface BlockMeta<P = any> {
 
 type Events = Values<typeof Block.EVENTS>;
 
-export default class Block<P = any> {
+export default class Block<Props extends {}> {
     static EVENTS = {
         INIT: 'init',
         FLOW_CDM: 'flow:component-did-mount',
@@ -22,7 +22,7 @@ export default class Block<P = any> {
     private readonly _meta: BlockMeta;
 
     protected _element: Nullable<HTMLElement> = null;
-    protected readonly props: P;
+    protected readonly props: Props;
     protected children: {[id: string]: Block} = {};
 
     eventBus: () => EventBus<Events>;
@@ -30,7 +30,7 @@ export default class Block<P = any> {
     protected state: any = {};
     protected refs: {[key: string]: HTMLElement} = {};
 
-    public constructor(props?: P) {
+    public constructor(props?: Props) {
         const eventBus = new EventBus<Events>();
 
         this._meta = {
@@ -39,7 +39,7 @@ export default class Block<P = any> {
 
         this.getStateFromProps(props)
 
-        this.props = this._makePropsProxy(props || {} as P);
+        this.props = this._makePropsProxy(props || {} as Props);
         this.state = this._makePropsProxy(this.state);
 
         this.eventBus = () => eventBus;
@@ -49,14 +49,14 @@ export default class Block<P = any> {
         eventBus.emit(Block.EVENTS.INIT, this.props);
     }
 
-    _registerEvents(eventBus: EventBus<Events>) {
+    private _registerEvents(eventBus: EventBus<Events>) {
         eventBus.on(Block.EVENTS.INIT, this.init.bind(this));
         eventBus.on(Block.EVENTS.FLOW_CDM, this._componentDidMount.bind(this));
         eventBus.on(Block.EVENTS.FLOW_CDU, this._componentDidUpdate.bind(this));
         eventBus.on(Block.EVENTS.FLOW_RENDER, this._render.bind(this));
     }
 
-    _createResources() {
+    private _createResources() {
         this._element = this._createDocumentElement('div');
     }
 
@@ -69,14 +69,14 @@ export default class Block<P = any> {
         this.eventBus().emit(Block.EVENTS.FLOW_RENDER, this.props);
     }
 
-    _componentDidMount(props: P) {
+    private _componentDidMount(props: Props) {
         this.componentDidMount(props);
     }
 
-    componentDidMount(props: P) {
+    componentDidMount(props: Props) {
     }
 
-    _componentDidUpdate(oldProps: P, newProps: P) {
+    private _componentDidUpdate(oldProps: Props, newProps: Props) {
         const response = this.componentDidUpdate(oldProps, newProps);
         if (!response) {
             return;
@@ -84,11 +84,11 @@ export default class Block<P = any> {
         this._render();
     }
 
-    componentDidUpdate(oldProps: P, newProps: P) {
+    componentDidUpdate(oldProps: Props, newProps: Props) {
         return JSON.stringify(oldProps) === JSON.stringify(newProps) && true
     }
 
-    setProps = (nextProps: P) => {
+    setProps = (nextProps: Props) => {
         if (!nextProps) {
             return;
         }
@@ -97,6 +97,7 @@ export default class Block<P = any> {
     };
 
     setState = (nextState: any) => {
+        console.log(nextState)
         if (!nextState) {
             return;
         }
@@ -108,7 +109,7 @@ export default class Block<P = any> {
         return this._element;
     }
 
-    _render() {
+    private _render() {
         const fragment = this._compile();
 
         this._removeEvents();
@@ -137,35 +138,32 @@ export default class Block<P = any> {
         return this.element!;
     }
 
-    _makePropsProxy(props: any): any {
-        // Можно и так передать this
-        // Такой способ больше не применяется с приходом ES6+
-        const self = this;
+    private _makePropsProxy(props: any): any {
 
         return new Proxy(props as unknown as object, {
-            get(target: Record<string, unknown>, prop: string) {
+            get: (target: Record<string, unknown>, prop: string) => {
                 const value = target[prop];
                 return typeof value === 'function' ? value.bind(target) : value;
             },
-            set(target: Record<string, unknown>, prop: string, value: unknown) {
+            set: (target: Record<string, unknown>, prop: string, value: unknown) => {
                 target[prop] = value;
 
                 // Запускаем обновление компоненты
                 // Плохой cloneDeep, в след итерации нужно заставлять добавлять cloneDeep им самим
-                self.eventBus().emit(Block.EVENTS.FLOW_CDU, {...target}, target);
+                this.eventBus().emit(Block.EVENTS.FLOW_CDU, {...target}, target);
                 return true;
             },
             deleteProperty() {
                 throw new Error('Нет доступа');
             },
-        }) as unknown as P;
+        }) as unknown as Props;
     }
 
-    _createDocumentElement(tagName: string) {
+    private _createDocumentElement(tagName: string) {
         return document.createElement(tagName);
     }
 
-    _removeEvents() {
+    private _removeEvents() {
         const events: Record<string, () => void> = (this.props as any).events;
 
         if (!events || !this._element) {
@@ -178,7 +176,7 @@ export default class Block<P = any> {
         });
     }
 
-    _addEvents() {
+    private _addEvents() {
         const events: Record<string, () => void> = (this.props as any).events;
 
         if (!events) {
@@ -190,7 +188,7 @@ export default class Block<P = any> {
         });
     }
 
-    _compile(): DocumentFragment {
+    private _compile(): DocumentFragment {
         const fragment = document.createElement('template');
 
         /**

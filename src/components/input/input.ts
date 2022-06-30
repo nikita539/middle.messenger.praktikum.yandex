@@ -2,10 +2,9 @@ import Block from "../../core/Block";
 
 interface InputProps {
     labelText: string
-    id: string
 }
 
-export class InputBlock extends Block{
+export class Component extends Block<InputProps>{
     static componentName = "InputBlock"
     constructor(props: InputProps) {
         super({...props});

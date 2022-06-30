@@ -1,7 +1,7 @@
 import { renderDOM } from "../core";
-import Chat from '../pages/chat'
+import { ChatPage } from '../pages/chat'
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    renderDOM(Chat)
+    renderDOM(ChatPage)
 })

@@ -1,1 +1,1 @@
-export { InputBlock as default } from "./input"
+export { Component as InputBlock } from "./input"

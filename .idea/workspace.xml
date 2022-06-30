@@ -20,16 +20,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdcb1e1b-1483-4863-96e9-d27fa1c46a3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stylelintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/input.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Block.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Block.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/fetch/fetch.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/fetch/fetch.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/fetch/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/fetch/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/fetch/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/fetch/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/validation/common.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/validation/common.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/validation/errorMessages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/validation/errorMessages.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404/404.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404/404.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/500/500.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/500/500.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/500/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/500/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/changePassword/changePassword.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/changePassword/changePassword.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/changePassword/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/changePassword/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/changeProfileData/changeProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/changeProfileData/changeProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/changeProfileData/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/changeProfileData/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat/chat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat/chat.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/chat/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chat/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/signin/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signin/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/signin/signin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signin/signin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticPages/404.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticPages/404.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticPages/500.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticPages/500.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticPages/changePassword.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticPages/changePassword.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticPages/changeProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticPages/changeProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticPages/chat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticPages/chat.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticPages/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticPages/login.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticPages/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticPages/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticPages/signin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticPages/signin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +109,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="C:\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\MI\Desktop\middle.messenger.praktikum.yandex\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -109,6 +135,7 @@
       <workItem from="1655731319440" duration="7498000" />
       <workItem from="1655812657756" duration="20649000" />
       <workItem from="1655978723003" duration="6137000" />
+      <workItem from="1656591673039" duration="9123000" />
     </task>
     <servers />
   </component>
@@ -144,41 +171,33 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="151" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1655990697265" />
-    <state width="1515" height="209" key="GridCell.Tab.0.bottom" timestamp="1655990749119">
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom" timestamp="1656014059894">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state width="1515" height="209" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1655990749119" />
-    <state width="1515" height="209" key="GridCell.Tab.0.center" timestamp="1655990749119">
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1656014059894" />
+    <state width="1515" height="209" key="GridCell.Tab.0.center" timestamp="1656014059894">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state width="1515" height="209" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1655990749119" />
-    <state width="1515" height="209" key="GridCell.Tab.0.left" timestamp="1655990749119">
+    <state width="1515" height="209" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1656014059894" />
+    <state width="1515" height="209" key="GridCell.Tab.0.left" timestamp="1656014059894">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state width="1515" height="209" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1655990749119" />
-    <state width="1515" height="209" key="GridCell.Tab.0.right" timestamp="1655990749119">
+    <state width="1515" height="209" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1656014059894" />
+    <state width="1515" height="209" key="GridCell.Tab.0.right" timestamp="1656014059894">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state width="1515" height="209" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1655990749119" />
+    <state width="1515" height="209" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1656014059894" />
     <state x="530" y="156" key="RollbackChangesDialog" timestamp="1655990700987">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="530" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1655990700987" />
-    <state x="277" y="99" key="SettingsEditor" timestamp="1647604572739">
+    <state x="478" y="186" width="579" height="534" key="find.popup" timestamp="1656599633302">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1647604572739" />
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1647605781991">
+    <state x="478" y="186" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1656599633302" />
+    <state x="611" y="225" key="refactoring.ChangeSignatureDialog" timestamp="1656599082323">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1647605781991" />
-    <state x="478" y="186" width="579" height="534" key="find.popup" timestamp="1655920579054">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="478" y="186" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1655920579054" />
-    <state x="431" y="185" key="search.everywhere.popup" timestamp="1647608381716">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="431" y="185" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1647608381716" />
+    <state x="611" y="225" key="refactoring.ChangeSignatureDialog/0.43.1536.821@0.43.1536.821" timestamp="1656599082323" />
   </component>
 </project>

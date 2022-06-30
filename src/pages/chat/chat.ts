@@ -5,7 +5,7 @@ interface ChatPageProps {
     userChat: boolean
 }
 
-export class ChatPage extends Block {
+export class Page extends Block<ChatPageProps> {
     constructor(props: ChatPageProps = {userChat: true}) {
         super({...props});
     }

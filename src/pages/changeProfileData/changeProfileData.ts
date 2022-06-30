@@ -4,7 +4,7 @@ interface ChangeProfileDataPageProps {
     changeData: boolean
 }
 
-export class ChangeProfileDataPage extends Block {
+export class Page extends Block<ChangeProfileDataPageProps> {
     constructor(props: ChangeProfileDataPageProps = { changeData: true }) {
         super({...props});
     }

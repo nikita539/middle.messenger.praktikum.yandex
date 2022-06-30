@@ -5,7 +5,7 @@ interface ChangePasswordProps {
     changeData: boolean
 }
 
-export class ChangePasswordPage extends Block {
+export class Page extends Block<ChangePasswordProps> {
     constructor(props: ChangePasswordProps = { changeData: false }) {
         super({...props});
     }

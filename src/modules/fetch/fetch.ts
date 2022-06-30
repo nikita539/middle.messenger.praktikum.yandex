@@ -1,8 +1,8 @@
-import { IFetchOptions,METHODS } from "./types";
+import { IFetchOptions, Methods } from "./types";
 import {queryStringify} from './utils';
 
 export class HTTPTransport<T> {
-    get = (url:string, options:IFetchOptions<T> = {method: METHODS.GET}) => {
+    get = (url:string, options:IFetchOptions<T> = {method: Methods.GET}) => {
         return this.request(
             `${url}${queryStringify(options.data)}`,
             { ...options },
@@ -10,7 +10,7 @@ export class HTTPTransport<T> {
         );
     };
 
-    put = (url:string, options:IFetchOptions<T> = { method: METHODS.PUT}) => {
+    put = (url:string, options:IFetchOptions<T> = { method: Methods.PUT}) => {
         return this.request(
             url,
             { ...options },
@@ -18,7 +18,7 @@ export class HTTPTransport<T> {
         );
     };
 
-    post = (url:string, options:IFetchOptions<T> = {method: METHODS.POST}) => {
+    post = (url:string, options:IFetchOptions<T> = {method: Methods.POST}) => {
         return this.request(
             url,
             { ...options },
@@ -26,7 +26,7 @@ export class HTTPTransport<T> {
         );
     };
 
-    delete = (url:string, options:IFetchOptions<T> = {method: METHODS.DELETE}) => {
+    delete = (url:string, options:IFetchOptions<T> = {method: Methods.DELETE}) => {
         return this.request(
             url,
             { ...options },
@@ -53,7 +53,7 @@ export class HTTPTransport<T> {
             xhr.ontimeout = reject;
             xhr.timeout = timeout;
 
-            if (method === METHODS.GET || !data) {
+            if (method === Methods.GET || !data) {
                 xhr.send();
             } else {
                 xhr.send(data as unknown as FormData);

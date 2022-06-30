@@ -1,1 +1,1 @@
-export { ProfilePage as default } from './profile'
+export { Page as ProfilePage } from './profile'

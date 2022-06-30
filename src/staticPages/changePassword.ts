@@ -1,7 +1,7 @@
 import { renderDOM } from "../core";
-import ChangePassword from '../pages/changePassword'
+import { ChangePasswordPage } from '../pages/changePassword'
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    renderDOM(ChangePassword)
+    renderDOM(ChangePasswordPage)
 })

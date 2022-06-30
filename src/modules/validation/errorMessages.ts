@@ -1,50 +1,50 @@
-export class CommonErrors {
-    static Required = "Требуется значение.";
+export const CommonErrors  = {
+    Required: "Требуется значение."
 }
 
-export class EmailErrors {
-    static Required = "Требуется почта.";
-    static WrongStructure = "Почта указана неверно.";
+export const EmailErrors = {
+    Required: "Требуется почта.",
+    WrongStructure: "Почта указана неверно."
 }
-export class LoginErrors {
-    static Required = "Требуется логин.";
-    static MinMaxLength: (
+export const LoginErrors = {
+    Required: "Требуется логин.",
+    MinMaxLength: (
         minLoginLength: number,
         maxLoginLength: number
-    ) => string = (minLoginLength, maxLoginLength) =>
-        `Длина логина должна быть от ${minLoginLength} до ${maxLoginLength} символов.`;
-    static WrongStructure =
-        "Логин может содержать цифры, но не состоять из них, латиница, без пробелов, без спецсимволов (допустимы дефис и нижнее подчёркивание).";
+    ) => {
+        return `Длина логина должна быть от ${minLoginLength} до ${maxLoginLength} символов.`
+    },
+    WrongStructure: "Логин может содержать цифры, но не состоять из них, латиница, без пробелов, без спецсимволов (допустимы дефис и нижнее подчёркивание)."
 }
 
-export class NameErrors {
-    static Empty = "Имя не может быть пустым.";
-    static WrongStructure =
-        "Первая буква должна быть заглавной, латиница или кириллица, без пробелов и без цифр, нет спецсимволов (допустим только дефис).";
+export const NameErrors = {
+    Empty: "Имя не может быть пустым.",
+    WrongStructure:
+        "Первая буква должна быть заглавной, латиница или кириллица, без пробелов и без цифр, нет спецсимволов (допустим только дефис)."
 }
 
-export class PasswordErrors {
-    static Required = "Требуется пароль.";
-    static WrongStructure =
-        "Пароль должен содержать хотя бы одну заглавную букву и цифру.";
-    static MinMaxLength: (
+export const PasswordErrors = {
+    Required: "Требуется пароль.",
+    WrongStructure:
+        "Пароль должен содержать хотя бы одну заглавную букву и цифру.",
+    MinMaxLength: (
         minPasswordLength: number,
         maxPasswordLength: number
-    ) => string = (minPasswordLength, maxPasswordLength) =>
-        `Длина пароля должна быть от ${minPasswordLength} до ${maxPasswordLength} символов.`;
+    ) =>
+        `Длина пароля должна быть от ${minPasswordLength} до ${maxPasswordLength} символов.`
 }
 
-export class PhoneErrors {
-    static Required = "Требуется телефон.";
-    static MinMaxLength: (
+export const PhoneErrors =  {
+    Required: "Требуется телефон.",
+    MinMaxLength: (
         minPhoneLength: number,
         maxPhoneLength: number
-    ) => string = (minPhoneLength, maxPhoneLength) =>
-        `Длина телефона должна быть от ${minPhoneLength} до ${maxPhoneLength} символов.`;
-    static WrongStructure =
-        "Телефон должен состоять из цифр, может начинается с плюса.";
+    ) =>
+        `Длина телефона должна быть от ${minPhoneLength} до ${maxPhoneLength} символов.`,
+    WrongStructure:
+        "Телефон должен состоять из цифр, может начинается с плюса.",
 }
 
-export class ChatErrors {
-    static MessageRequired = "Напишите сообщение";
+export const ChatErrors = {
+    MessageRequired: "Напишите сообщение"
 }

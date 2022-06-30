@@ -7,7 +7,7 @@ interface SignInProps {
 }
 
 
-export class SignInPage extends Block {
+export class Page extends Block<SignInProps> {
     constructor(props: SignInProps) {
         const onChange = (e: Event) => {
             const target = e.target as HTMLInputElement;
@@ -59,13 +59,14 @@ export class SignInPage extends Block {
             },
             validators: {
                 login: () => {
+                    const nextState = { ...this.state }
                     const validationResult = loginValidation(this.state.values.login);
                     if (validationResult.isFailure) {
-                        this.state.errors.login = validationResult.error;
+                        nextState.errors.login = validationResult.error;
                     } else {
-                        this.state.errors.login = "";
+                        nextState.errors.login = "";
                     }
-                    this.setState(this.state);
+                    this.setState(nextState);
                 },
                 password: () => {
                     const nextSate = { ...this.state };
