@@ -11,6 +11,15 @@ $bubble-blue: #E4EDFD;
 $bold_font: #1E1E1E;
 $exit_link: $red;
 
+@import "../src/styles/button";
+@import "../src/styles/chat_feed";
+@import "../src/styles/first_page";
+@import "../src/styles/input";
+@import "../src/styles/message_input";
+@import "../src/styles/profile";
+@import "../src/styles/search_input";
+@import "../src/styles/warning_page";
+
 
 * {
     font-family: "Inter", "sans-serif";
