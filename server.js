@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(path.join(__dirname,'./dist')))
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, './dist/log_in.html'))
+    res.sendFile(path.join(__dirname, './dist/login.html'))
 });
 
 app.listen(PORT, function () {
